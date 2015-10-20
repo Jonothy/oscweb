@@ -2,28 +2,32 @@ init();
 
 var redslider, greenslider, blueslider;
 var redval, greenval, blueval;
+var redtext, greentext, bluetext;
 
 function init(){
 
  redslider = document.getElementById("redslider");
  greenslider = document.getElementById("greenslider");
  blueslider = document.getElementById("blueslider");
+ redtext = document.getElementById('redtext');
+ greentext = document.getElementById('greentext');
+ bluetext = document.getElementById('bluetext');
 
  redslider.oninput = function(){
     console.log(this.value);
-    document.getElementById('redtext').value=this.value; 
+    redtext.value=this.value; 
     slideChange();
  }
 
  greenslider.oninput = function(){
     console.log(this.value);
-    document.getElementById('greentext').value=this.value; 
+    greentext.value=this.value; 
     slideChange();
  }
 
  blueslider.oninput = function(){
     console.log(this.value);
-    document.getElementById('bluetext').value=this.value; 
+    bluetext.value=this.value; 
     slideChange();
  }
 

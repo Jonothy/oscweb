@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  #sliders
+    |RED___
+    input(id="redslider", class="slider", type="range", max="255", value="255")
+    output(id="redtext", type="text", value="255")
+    br
+    |GREEN_
+    input(id="greenslider", class="slider", type="range", max="255", value="255")
+    output(id="greentext", type="text", value="255")
+    br
+    |BLUE__
+    input(id="blueslider", class="slider", type="range", max="255", value="255")
+    output(id="bluetext", type="text", value="255")

@@ -5,7 +5,8 @@ Uses express generator to create template
 
 Assumes node is installed.
 
-Install dependencie and run:
-```npm install
+To install dependencie and run:
+```{r, engine='bash', count_lines}
+npm install
 npm start
 ```

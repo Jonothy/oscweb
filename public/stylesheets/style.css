@@ -7,15 +7,3 @@ body {
 a {
   color: #00B7FF;
 }
-
-#redtext {
-  color: rgb(255,0,0);
-}
-
-#greentext {
-  color: rgb(0,255,0);
-}
-
-#bluetext {
-  color: rgb(0,0,255);
-}
